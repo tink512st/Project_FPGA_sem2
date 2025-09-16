@@ -1,0 +1,21 @@
+set_property PACKAGE_PIN M17 [get_ports rst_0]
+set_property PACKAGE_PIN U19 [get_ports scl_0]
+set_property PACKAGE_PIN R19 [get_ports sda_0]
+set_property PACKAGE_PIN B19 [get_ports rx_0]
+set_property PACKAGE_PIN A20 [get_ports tx_0]
+set_property IOSTANDARD LVCMOS33 [get_ports tx_0]
+set_property IOSTANDARD LVCMOS33 [get_ports sda_0]
+set_property IOSTANDARD LVCMOS33 [get_ports scl_0]
+set_property IOSTANDARD LVCMOS33 [get_ports rx_0]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_0]
+
+set_property PACKAGE_PIN U20 [get_ports data_a_0]
+set_property PACKAGE_PIN V20 [get_ports data_b_0]
+set_property IOSTANDARD LVCMOS33 [get_ports data_a_0]
+set_property IOSTANDARD LVCMOS33 [get_ports data_b_0]
+
+set_property PACKAGE_PIN L17 [get_ports btn_in_0]
+set_property IOSTANDARD LVCMOS33 [get_ports btn_in_0]
+
+set_property PACKAGE_PIN D20 [get_ports clk_5hz_0]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_5hz_0]
